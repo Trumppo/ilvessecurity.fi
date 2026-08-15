@@ -6,11 +6,11 @@ Tämä hakemisto on Ilves Securityn staattisen GitHub Pages -verkkosivun lähde.
 
 - `index.html` – sivun rakenne ja sisältö
 - `styles.css` – Concept A -pohjainen ulkoasu
-- `placeholder.css` – väliaikaisen hero-kuvan käyttö
+- `site-overrides.css` – palvelukorttien, tuotekuvausten ja kuvaversioiden sivukohtaiset tyylit
 - `app.js` – mobiilinavigaation käyttöliittymälogiikka
-- `assets/` – logo ja hero-kuvan placeholder
+- `assets/` – tuotantologo, favicon, optimoidut WebP-kuvat ja kuvalähteen kreditointi
 - `SUUNNITTELUPERIAATTEET.md` – visuaaliset ja tekniset päätökset
 - `DESIGN_SYSTEM.md` – tarkka paikallinen design- ja komponenttisopimus
 - `CUSTOM_DOMAIN.md` – `ilvessecurity.fi`-domainin ja HTTPS:n käyttöönottosuunnitelma
 
-Sivustoon ei kuulu backendia. Kaikki julkaistava sisältö pidetään tässä hakemistossa ja synkronoidaan jatkossa GitHubiin.
+Sivustoon ei kuulu backendia. Tämä julkinen site-repo julkaisee oman juurensa GitHub Pagesiin. HAMK_Haku-repon `webbisivu/` on paikallinen synkronoitu työkopio, ei tämän workflow'n julkaisujuuri.

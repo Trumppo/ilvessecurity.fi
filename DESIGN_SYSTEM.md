@@ -8,7 +8,7 @@ Sivun pitää tuntua rauhalliselta, jämäkältä, käytännönläheiseltä, rii
 
 ## Brand assets -sopimus
 
-Käytä tuotannossa tiedostoa `output/graafinen-ilme/ilves-security-logo-outlined.svg` tai sen paikallista kopiota `webbisivu/assets/ilves-security-logo.svg`. Outlined-versio on fontista riippumaton tuotantologo. Älä käytä konseptitaulun PNG:tä varsinaisena logona.
+Käytä tuotannossa tämän repon `assets/ilves-security-logo.svg` -tiedostoa. Se on fontista riippumaton tuotantologo. Alkuperäinen brand source on yksityisessä lähdeaineistossa; älä käytä konseptitaulun PNG:tä varsinaisena logona.
 
 Brand assets -ohjeen värit:
 
@@ -28,8 +28,8 @@ Logoa ei venytetä, litistetä, varjosteta, hehkuteta, liukuväritetä tai muute
 ## Sivun rakenne
 
 1. **Header:** valkoinen käänteinen logo tumman hero-pinnan päällä, ankkurit Palvelut / Meistä / Yhteys ja `Kysy lisää` -toiminto.
-2. **Hero:** “Hallittua tietoturvaa.”, hämäläinen paikkamerkki tai myöhemmin oikea luontokuva, punainen CTA.
-3. **Palvelut:** neljä liiketoimintasuunnitelman mukaista palvelua.
+2. **Hero:** “Hallittua tietoturvaa.”, optimoitu hämäläinen järvimaisema ja punainen CTA.
+3. **Palvelut:** neljä liiketoimintasuunnitelman mukaista palvelua sekä kolmen pääpalvelun tarkemmat asiakasarvoa kuvaavat osiot.
 4. **Meistä:** käytännönläheisyyttä ja riippumattomuutta perusteleva lyhyt osio.
 5. **Maisema:** paikallisuutta ja rauhallista tilaa tuova kuvaosio.
 6. **Yhteys:** sähköposti- ja puhelinlinkit sekä matalan kynnyksen yhteydenottokutsu.
@@ -44,6 +44,18 @@ Palvelukortin rakenne on:
 2. yksi konkreettinen hyötylupaus;
 3. tekninen palvelunimi tai toimituksen tarkempi sisältö leipätekstissä tarvittaessa;
 4. matalan kynnyksen seuraava askel.
+
+### Palveluiden tarkemmat sisältöosiot
+
+Palvelukortit toimivat nopeana yleiskuvana. Niiden alle sijoitetaan kolme tarkempaa sisältöosiota: puuteanalyysi, hallintajärjestelmän rakentaminen ja vCISO. Jokainen osio alkaa asiakkaan tunnistettavasta tilanteesta, ei tuotteen teknisestä nimestä.
+
+Sisältöjärjestys on:
+
+1. **Puuteanalyysi:** johto ennakoi, että tietoturva voi muodostua uuden B2B-asiakkuuden tai tarjousprosessin esteeksi. Arvo on valmistautuminen ennen kuin vaatimus pysäyttää kaupan.
+2. **Hallintajärjestelmä:** tietoturvan hallintajärjestelmästä tulee tarjouksissa toistuva vaatimus. Arvo on kyky vastata vaatimuksiin johdonmukaisesti oikean kokoisella ja ylläpidettävällä mallilla.
+3. **vCISO:** johdolla ei ole aikaa tai organisaatiossa ei ole omaa tietoturvan johtamisen asiantuntijaa. Arvo on jatkuva omistajuus, tilannekuva ja kehityksen eteneminen.
+
+Julkiset käyttötilanteet kirjoitetaan esimerkkeinä, ei toteutuneina asiakascaseina. Toteutuneiksi tuloksiksi voidaan nimetä vain myöhemmin dokumentoidut asiakastapaukset.
 
 Älä aloita korttia sanoilla kuten “auditointi”, “hallintajärjestelmä” tai “vCISO”, jos ne eivät yksin kerro ostajalle syntyvää hyötyä. Ne voidaan avata otsikon alla.
 
@@ -84,7 +96,7 @@ Palvelukorttien rytmi on Concept A:ssa tumma ensimmäinen kortti, vaaleat keskik
 
 ## Kuvien ja assetien periaate
 
-`assets/hero-placeholder.svg` on väliaikainen paikallinen paikkamerkki. Se korvataan myöhemmin Hämäläisellä järvi-, metsä-, kallio- tai sumumaisemalla. Kuvassa ei saa olla tekstiä, logoa, vesileimaa, ihmisiä tai geneeristä teknologiataustaa. Kuva pidetään hillittynä, jotta brändin punainen säilyy tunnistettavana.
+`assets/hero-ilvessecurity-desktop.webp` ja `assets/hero-ilvessecurity-mobile.webp` ovat julkaistavat, optimoidut Hämäläinen järvimaisemat. `assets/hero-placeholder.svg` säilytetään vain varavaihtoehtona. Kuvassa ei saa olla tekstiä, logoa, vesileimaa, ihmisiä tai geneeristä teknologiataustaa. Kuva pidetään hillittynä, jotta brändin punainen säilyy tunnistettavana.
 
 ## Saavutettavuus
 
@@ -99,14 +111,20 @@ Palvelukorttien rytmi on Concept A:ssa tumma ensimmäinen kortti, vaaleat keskik
 
 ## Tekninen sopimus
 
-- lähdehakemisto: `webbisivu/`;
-- pääsivu: `webbisivu/index.html`;
-- tyylit: `styles.css` ja `placeholder.css`;
+### Kuvien suorituskyky
+
+Hero- ja maisemakuvat julkaistaan WebP-muodossa erillisinä vaaka- ja pystysuuntaisina versioina. Desktop-versio on noin 1600 px leveä ja mobiiliversio noin 768 px leveä. Alkuperäiset PNG/JPG-tiedostot säilytetään erillisessä paikallisessa lähdearkistossa, eivätkä ne kuulu julkaistavaan asset-pakettiin. Tavoitteena on pitää jokainen ladattava rasterikuva alle megatavussa ilman, että Concept A:n tumma, rauhallinen kuvapinta kärsii.
+
+- julkisen site-repon julkaisujuuri: tämän dokumentin kanssa sama repojuuri;
+- pääsivu: `index.html`;
+- tyylit: `styles.css` ja `site-overrides.css`;
 - käyttöliittymälogiikka: `app.js`;
 - assetit: `assets/`;
 - GitHub Pages -workflow: `.github/workflows/ilves-security-pages.yml`;
 - ei backendia, tietokantaa, API-avaimia tai ulkoisia runtime-riippuvuuksia;
-- kaikki polut ovat suhteellisia, jotta sivu toimii GitHub Pagesin projektialipolussa.
+- kaikki polut ovat suhteellisia, jotta sivu toimii oman verkkotunnuksen alla ja tarvittaessa GitHub Pagesin projektialipolussa.
+
+Paikalliset työkopiot ovat `C:\temp\ilvessecurity.fi-public` ja HAMK_Haku-repon synkronoitu `webbisivu/`-hakemisto. GitHub Pages julkaisee julkisen site-repon juuren, ei HAMK_Haku-repon muuta sisältöä.
 
 ## Muutosten tarkistus
 
@@ -116,5 +134,5 @@ Kun designia kehitetään, tarkista aina:
 2. vastaako palvelusisältö liiketoimintasuunnitelmaa;
 3. säilyvätkö tumma–vaalea–punainen Concept A -rytmi ja hämäläinen tunnelma;
 4. toimivatko desktop, mobiili, näppäimistö ja JavaScript pois päältä;
-5. ovatko yhteystiedot ja hero-kuva tuotantovalmiit; mockupin `esimerkki@example.com` ja `+358 40 123 4567` eivät ole oikeita yhteystietoja;
+5. ovatko oikeat yhteystiedot ja hero-kuva tuotantovalmiit; yhteystietojen puuttuessa sivu näyttää vain selkeän ei-toimivan ilmoituksen;
 6. päivitetäänkö tämä tiedosto jokaisen uuden designpäätöksen yhteydessä.

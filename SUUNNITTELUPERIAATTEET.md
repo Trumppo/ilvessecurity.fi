@@ -20,10 +20,21 @@ Luontokuvan tulee olla rauhallinen ja dokumentaarinen, ei geneerinen teknologiat
 ## Sivurakenne
 
 - Hero: “Hallittua tietoturvaa.”
-- Palvelut: tietoturvan hallinta, valmiudet ja asiantuntijatuki.
+- Palvelut: puutteiden ennakointi, tietoturvan hallinnan rakentaminen ja jatkuva johtamisen tuki.
+- Palveluiden tarkemmat osiot perustuvat asiakkaan ostotilanteisiin: tulevan B2B-kaupan valmistelu, toistuva hallintajärjestelmävaatimus ja tietoturvan johtamisen delegointi.
 - Luottamusta rakentava perusteluosio.
 - Hämäläinen maisema ja paikallisuuden nosto.
 - Yhteydenottokutsu.
+
+## Palveluviestinnän pääkulma
+
+Palveluita ei kuvata ensisijaisesti raporttien, Excelien tai muiden toimitusten kautta. Ensin kerrotaan, mitä asiakkaan liiketoiminnassa on muuttumassa paremmaksi.
+
+- **Puuteanalyysi:** asiakas ehtii valmistautua ennen kuin tietoturvavaatimus muodostuu kaupan esteeksi.
+- **Hallintajärjestelmä:** asiakas pystyy vastaamaan toistuviin vaatimuksiin johdonmukaisesti ilman tarpeettoman raskasta mallia.
+- **vCISO:** asiakas saa tietoturvan johtamiselle jatkuvan omistajuuden silloin, kun johdolla ei ole aikaa tai omaa asiantuntijaa.
+
+Sivustolla käytetään tunnistettavia esimerkkitilanteita, kuten uuden B2B-asiakkaan tietoturvakyselyä, tarjouspyynnön hallintajärjestelmävaatimusta ja IT-kumppanin teknisen työn sekä johdon kokonaisvastuun välistä aukkoa. Esimerkit merkitään tilanteiksi tai hypoteettisiksi käyttötapauksiksi, ellei niistä ole dokumentoitua asiakastulosta.
 
 ## Tekniset periaatteet
 
@@ -39,28 +50,28 @@ Luontokuvan tulee olla rauhallinen ja dokumentaarinen, ei geneerinen teknologiat
 
 - Sivulla on ohita sisältöön -linkki.
 - Navigaatiopainikkeella on `aria-expanded` ja `aria-controls`.
-- Kuvat ja kuvan placeholderit on nimetty kuvaavasti.
+- Kuvat ja mahdollinen varapaikkamerkki on nimetty kuvaavasti.
 - Punainen ei ole ainoa tapa ilmaista merkitystä.
 - Näppäimistökäyttö ja `prefers-reduced-motion` huomioidaan.
 - Oikea hero-kuva tarkistetaan tekstin kontrastia vasten ennen julkaisua.
 
 ## Kuvapaikka
 
-`assets/hero-placeholder.svg` on väliaikainen paikallinen paikkamerkki. Se korvataan myöhemmin Hämäläisellä luontokuvalla ilman, että HTML-rakennetta tarvitsee muuttaa.
+`assets/hero-ilvessecurity-desktop.webp` ja `assets/hero-ilvessecurity-mobile.webp` ovat käytössä olevat optimoidut Hämäläiset luontokuvat. `assets/hero-placeholder.svg` säilyy vain varapaikkamerkkinä.
 
 ## Julkaisu GitHub Pagesissa
 
-GitHub Pages julkaisee staattisia HTML-, CSS- ja JavaScript-tiedostoja repositoriosta. Tälle sivulle ei suunnitella backendia. Julkaisussa voidaan käyttää joko Pagesin branch-kansiota tai GitHub Actions -workflow'ta, joka julkaisee tämän kansion Pages-artifaktina.
+GitHub Pages julkaisee staattisia HTML-, CSS- ja JavaScript-tiedostoja repositoriosta. Tälle sivulle ei suunnitella backendia. Tässä projektissa kanoninen julkaisutapa on GitHub Actions -workflow, joka julkaisee julkisen site-repon juuren Pages-artifaktina.
 
-Tässä projektissa julkaisua varten on valmis juuren workflow-tiedosto `.github/workflows/ilves-security-pages.yml`. Se julkaisee vain `webbisivu`-hakemiston ja käynnistyy, kun kyseisen hakemiston sisältö muuttuu `main`-haarassa.
+Tässä projektissa julkaisua varten on valmis julkisen site-repon juuren workflow-tiedosto `.github/workflows/ilves-security-pages.yml`. Se julkaisee julkisen site-repon juuren Pages-artifaktina `main`-haarasta. HAMK_Haku-repon `webbisivu/` on synkronoitu paikallinen työkopio, ei Pages-workflow'n julkaisujuuri.
 
 Ennen ensimmäistä julkaisua tarkistetaan repositorion Pages-asetus, projektisivun alihakemistopolut, HTTPS ja mahdollinen oma verkkotunnus.
 
 ## Jatkokehityksen työjärjestys
 
 1. hyväksytään rakenteen ja visuaalisen suunnan ensimmäinen versio;
-2. vaihdetaan placeholder oikeaan luontokuvaan;
-3. viimeistellään yrityksen yhteystiedot ja palvelutekstit;
-4. testataan mobiili, näppäimistö, kontrasti ja linkit;
-5. synkronoidaan `webbisivu` GitHubiin;
-6. otetaan GitHub Pages käyttöön ja varmennetaan julkaistu osoite.
+2. viimeistellään yrityksen oikeat yhteystiedot ja palvelutekstit;
+3. testataan mobiili, näppäimistö, kontrasti ja linkit;
+4. synkronoidaan `webbisivu` julkisen site-repon juureen;
+5. otetaan GitHub Pages käyttöön ja varmennetaan julkaistu osoite;
+6. kirjataan live-, Lighthouse- ja ruudunlukijatestien tulokset.
