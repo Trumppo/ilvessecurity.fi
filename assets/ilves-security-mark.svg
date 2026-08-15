@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 160" role="img" aria-labelledby="title desc">
+  <title id="title">Ilves Security - ilvesmerkki</title>
+  <desc id="desc">Päivitetyn konsepti A:n geometrinen ilveksen päämerkki</desc>
+  <g fill="#242B31">
+    <path d="M10 2 14 12 19 70 36 50Z"/>
+    <path d="m118 2-4 10-5 58-17-20Z"/>
+    <path fill-rule="evenodd" clip-rule="evenodd" d="M44 50h40l40 50-40 58H44L4 100Z M27 95C31 96 36 98 40 100C44 102 48 106 50 114C46 113 40 111 36 109C32 107 29 102 27 95Z M101 95C98 96 92 98 88 100C84 102 80 106 78 114C82 113 88 111 92 109C96 107 99 102 101 95Z"/>
+  </g>
+</svg>

@@ -12,7 +12,7 @@ Lisäksi suositellaan `www.ilvessecurity.fi`-osoitteen käyttöönottoa ja ohjaa
 
 ## GitHub Pages
 
-Kun `webbisivu` on julkaistu workflow'lla, määritä repositorion Pages-asetuksissa Custom domain -arvoksi:
+Kun julkisen site-repon juuri on julkaistu workflow'lla, määritä repositorion Pages-asetuksissa Custom domain -arvoksi:
 
 ```text
 ilvessecurity.fi
@@ -64,4 +64,4 @@ GitHub luo ja ylläpitää sertifikaatin automaattisesti. Sertifikaattia ei asen
 - sivun paikalliset asset-polut toimivat myös custom domainilla;
 - sähköposti- ja puhelinyhteystiedot ovat tuotantovalmiit.
 
-Mockupissa käytetään tahallaan varattua esimerkkiosoitetta `esimerkki@example.com` ja esimerkkipuhelinnumeroa `+358 40 123 4567`. Ne vaihdetaan oikeisiin yhteystietoihin ennen julkaisua.
+Tuotantoon ei julkaista mock-yhteystietoja. Kun oikeaa sähköpostiosoitetta ja puhelinnumeroa ei ole vielä päätetty, sivu näyttää ei-toimivan ilmoituksen yhteystietojen puuttumisesta. Oikeat tiedot lisätään ennen tuotantojulkaisua.
