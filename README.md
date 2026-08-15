@@ -12,5 +12,6 @@ Tämä hakemisto on Ilves Securityn staattisen GitHub Pages -verkkosivun lähde.
 - `SUUNNITTELUPERIAATTEET.md` – visuaaliset ja tekniset päätökset
 - `DESIGN_SYSTEM.md` – tarkka paikallinen design- ja komponenttisopimus
 - `CUSTOM_DOMAIN.md` – `ilvessecurity.fi`-domainin ja HTTPS:n käyttöönottosuunnitelma
+- `LLM_NAKYVYYDEN_KEHITYSEHDOTUKSET.md` – LLM-näkyvyyden, koneellisen luettavuuden ja JSON-LD:n kehityssuunnitelma
 
 Sivustoon ei kuulu backendia. Tämä julkinen site-repo julkaisee oman juurensa GitHub Pagesiin. HAMK_Haku-repon `webbisivu/` on paikallinen synkronoitu työkopio, ei tämän workflow'n julkaisujuuri.
