@@ -53,7 +53,8 @@ h1 span, h2 em { font-style: normal; color: var(--red); }
 .service-card-dark { background: var(--charcoal); color: #fff; border-color: var(--charcoal); }
 .service-card-red { background: var(--red); color: #fff; border-color: var(--red); }
 .card-number { color: var(--red); font-size: 12px; font-weight: 800; letter-spacing: .12em; }
-.service-card-dark .card-number, .service-card-red .card-number { color: #f3c0c6; }
+.service-card-dark .card-number { color: #f3c0c6; }
+.service-card-red .card-number { color: #fff; }
 .service-card h3 { margin: 54px 0 14px; font-size: 27px; line-height: 1.05; }
 .service-card p { margin: 0; color: #647077; }
 .service-card-dark p, .service-card-red p { color: #e7eaeb; }
@@ -118,4 +119,38 @@ section[id], .service-detail[id] { scroll-margin-top: 24px; }
 
 @media (prefers-reduced-motion: reduce) {
   html { scroll-behavior: auto; }
+}
+
+/* Service details stay in the main stylesheet so the first render needs one CSS request. */
+.hero-media { background-image: url('assets/hero-ilvessecurity-desktop.webp'); }
+.landscape-break { background-image: url('assets/hero-ilvessecurity-desktop.webp') !important; background-position: center 62%; }
+.service-grid { grid-template-columns: repeat(4, 1fr); }
+.service-card { min-height: 360px; }
+.service-note { margin: 24px 0 0; color: #657078; font-size: 14px; max-width: 800px; }
+.service-details { display: grid; gap: 16px; margin-top: 44px; }
+.service-detail { display: grid; grid-template-columns: minmax(220px, .72fr) 1.28fr; gap: 48px; padding: 34px 38px; background: #fff; border: 1px solid var(--line); }
+.service-detail-dark { background: var(--charcoal); color: #fff; border-color: var(--charcoal); }
+.service-detail-red { background: var(--red); color: #fff; border-color: var(--red); }
+.detail-kicker { display: block; margin-bottom: 20px; color: var(--red); font-size: 12px; font-weight: 800; letter-spacing: .14em; text-transform: uppercase; }
+.service-detail-dark .detail-kicker { color: #f3c0c6; }
+.service-detail-red .detail-kicker { color: #fff; }
+.service-detail h3 { margin: 0; max-width: 390px; font-size: clamp(27px, 3vw, 40px); line-height: 1.04; letter-spacing: -.035em; }
+.service-detail-body { max-width: 620px; color: #59656b; font-size: 17px; }
+.service-detail-dark .service-detail-body, .service-detail-red .service-detail-body { color: #e7eaeb; }
+.service-detail-body p { margin: 0 0 16px; }
+.service-detail-context { padding-left: 16px; border-left: 3px solid var(--red); font-size: 15px; }
+.service-detail-dark .service-detail-context, .service-detail-red .service-detail-context { border-color: #f3c0c6; }
+.service-detail-body a { display: inline-flex; gap: 12px; margin-top: 8px; color: var(--red); font-weight: 800; text-decoration: none; }
+.service-detail-dark .service-detail-body a, .service-detail-red .service-detail-body a { color: #fff; }
+
+@media (max-width: 900px) {
+  .service-grid { grid-template-columns: repeat(2, 1fr); }
+}
+
+@media (max-width: 760px) {
+  .service-grid { grid-template-columns: 1fr; }
+  .service-detail { display: block; padding: 28px 24px; }
+  .service-detail-heading { margin-bottom: 24px; }
+  .service-detail-body { font-size: 16px; }
+  .hero-media { background-image: url('assets/hero-ilvessecurity-mobile.webp'); }
 }
