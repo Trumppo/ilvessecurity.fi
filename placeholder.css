@@ -1,4 +1,3 @@
-.hero-media{background-image:url('assets/hero-placeholder.svg')!important}
 .landscape-break{background-image:url('assets/hero-placeholder.svg')!important}
 .service-grid{grid-template-columns:repeat(4,1fr)}
 .service-card{min-height:360px}
