@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+  <title id="title">Hämäläisen luontokuvan placeholder</title>
+  <desc id="desc">Rauhallinen tummasävyinen järvi- ja metsämaiseman paikkamerkki.</desc>
+  <defs><linearGradient id="sky" x2="0" y2="1"><stop stop-color="#aab4b7"/><stop offset="1" stop-color="#526269"/></linearGradient><linearGradient id="water" x2="0" y2="1"><stop stop-color="#43545a"/><stop offset="1" stop-color="#202a2e"/></linearGradient></defs>
+  <rect width="1600" height="900" fill="#242b31"/><rect width="1600" height="520" fill="url(#sky)"/><rect y="520" width="1600" height="380" fill="url(#water)"/>
+  <path d="M0 515 Q180 410 340 485 T670 470 T1000 450 T1300 475 T1600 430 V600 H0Z" fill="#1f2b2e"/>
+  <path d="M0 650 Q220 610 440 655 T880 645 T1260 660 T1600 630" fill="none" stroke="#93a1a2" stroke-opacity=".4" stroke-width="3"/>
+  <path d="M0 0H300V900H0Z" fill="#172126" fill-opacity=".4"/>
+  <g fill="#cfd5d5" fill-opacity=".85" font-family="Arial,sans-serif" text-anchor="middle"><text x="800" y="420" font-size="30" letter-spacing="7">HÄMÄLÄINEN LUONTOKUVA</text><text x="800" y="465" font-size="16" letter-spacing="3">HERO-KUVAN PAIKKAMERKKI</text></g>
+</svg>
