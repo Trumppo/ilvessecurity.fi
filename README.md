@@ -6,7 +6,7 @@ Tämä hakemisto on Ilves Securityn staattisen GitHub Pages -verkkosivun lähde.
 
 - `index.html` – sivun rakenne ja sisältö
 - `styles.css` – Concept A -pohjainen ulkoasu
-- `site-overrides.css` – palvelukorttien, tuotekuvausten ja kuvaversioiden sivukohtaiset tyylit
+- `styles.css` sisältää myös palvelukorttien ja tuotekuvausten tyylit, jotta ensimmäinen renderöinti tarvitsee vain yhden CSS-pyynnön
 - `app.js` – mobiilinavigaation käyttöliittymälogiikka
 - `assets/` – tuotantologo, favicon, optimoidut WebP-kuvat ja kuvalähteen kreditointi
 - `SUUNNITTELUPERIAATTEET.md` – visuaaliset ja tekniset päätökset

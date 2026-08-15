@@ -117,7 +117,7 @@ Hero- ja maisemakuvat julkaistaan WebP-muodossa erillisinä vaaka- ja pystysuunt
 
 - julkisen site-repon julkaisujuuri: tämän dokumentin kanssa sama repojuuri;
 - pääsivu: `index.html`;
-- tyylit: `styles.css` ja `site-overrides.css`;
+- tyylit: `styles.css`;
 - käyttöliittymälogiikka: `app.js`;
 - assetit: `assets/`;
 - GitHub Pages -workflow: `.github/workflows/ilves-security-pages.yml`;
