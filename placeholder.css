@@ -1,4 +1,4 @@
-.landscape-break{background-image:url('assets/hero-placeholder.svg')!important}
+.landscape-break{background-image:url('assets/hero-ilvessecurity-desktop.png')!important;background-position:center 62%}
 .service-grid{grid-template-columns:repeat(4,1fr)}
 .service-card{min-height:360px}
 .service-note{margin:24px 0 0;color:#657078;font-size:14px;max-width:800px}
