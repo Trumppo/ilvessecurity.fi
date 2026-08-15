@@ -29,7 +29,7 @@ img { max-width: 100%; }
 .hero-media, .hero-shade { position: absolute; inset: 0; }
 .hero-media { background: url('assets/hero-ilvessecurity-desktop.webp') center/cover no-repeat; }
 .hero-shade { background: linear-gradient(90deg, rgba(22,29,33,.72), rgba(22,29,33,.42) 38%, rgba(22,29,33,.12) 75%), linear-gradient(0deg, rgba(22,29,33,.32), transparent 50%); }
-.hero-content { position: relative; padding: 150px 0 95px; }
+.hero-content { position: relative; width: min(1160px, calc(100% - 48px)); margin-inline: auto; padding: 150px 0 95px; }
 .eyebrow { margin: 0 0 20px; color: var(--red); font-size: 12px; font-weight: 800; letter-spacing: .17em; text-transform: uppercase; }
 .hero .eyebrow { color: #f3c0c6; }
 .hero h1, .section h2 { margin: 0; letter-spacing: -.055em; line-height: .98; font-size: clamp(50px, 7vw, 92px); }
@@ -101,7 +101,7 @@ section[id], .service-detail[id] { scroll-margin-top: 24px; }
   .nav-cta { margin-top: 8px; text-align: center; }
   .hero { min-height: 680px; }
   .hero-media { background-image: url('assets/hero-ilvessecurity-mobile.webp'); background-position: 50% 58%; }
-  .hero-content { padding: 128px 0 90px; }
+  .hero-content { width: min(calc(100% - 32px), 560px); padding: 128px 0 90px; }
   .hero-stamp { display: none; }
   .section { padding: 76px 0; }
   .section-intro, .statement-grid, .contact-grid { display: block; }
