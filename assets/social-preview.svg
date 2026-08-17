@@ -1,21 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" role="img" aria-labelledby="title desc">
-  <title id="title">Ilves Security – Hallittua tietoturvaa</title>
-  <desc id="desc">Ilves Securityn logo tummalla hämäläisellä järvimaisemalla.</desc>
-  <defs>
-    <linearGradient id="shade" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0" stop-color="#10181d" stop-opacity="0.96"/>
-      <stop offset="0.58" stop-color="#10181d" stop-opacity="0.72"/>
-      <stop offset="1" stop-color="#10181d" stop-opacity="0.38"/>
-    </linearGradient>
-  </defs>
-  <image href="hero-ilvessecurity-desktop.webp" x="0" y="0" width="1200" height="630" preserveAspectRatio="xMidYMid slice"/>
-  <rect width="1200" height="630" fill="#10181d" opacity="0.22"/>
-  <rect width="1200" height="630" fill="url(#shade)"/>
-  <rect x="92" y="118" width="8" height="394" fill="#c8102e"/>
-  <!-- The production logo is dark; the light backing keeps it legible on the photo. -->
-  <rect x="128" y="144" width="660" height="190" rx="18" fill="#ffffff" opacity="0.94"/>
-  <image href="ilves-security-logo.svg" x="148" y="164" width="610" height="153" preserveAspectRatio="xMinYMid meet"/>
-  <text x="148" y="405" fill="#ffffff" font-family="Arial, Helvetica, sans-serif" font-size="54" font-weight="700">Hallittua</text>
-  <text x="148" y="466" fill="#ffffff" font-family="Arial, Helvetica, sans-serif" font-size="54" font-weight="700">tietoturvaa.</text>
-  <text x="148" y="535" fill="#f0b8c1" font-family="Arial, Helvetica, sans-serif" font-size="22" letter-spacing="4">KANTA-HÄMEESTÄ</text>
+  <title id="title">Ilves Security</title>
+  <desc id="desc">Ilves Securityn musta logo valkoisella pohjalla.</desc>
+  <rect width="1200" height="630" fill="#ffffff"/>
+  <image href="ilves-security-logo.svg" x="280" y="235" width="640" height="160" preserveAspectRatio="xMidYMid meet"/>
 </svg>
