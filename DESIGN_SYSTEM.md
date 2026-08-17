@@ -36,6 +36,10 @@ Logoa ei venytetä, litistetä, varjosteta, hehkuteta, liukuväritetä tai muute
 
 ## Asiakkaan lisäarvo suunnittelun kulmakivenä
 
+Visuaalinen ja sisällöllinen kokonaisuus tekee vision ja mission näkyviksi:
+visio on **Turvallinen Kanta-Häme**, ja missio on auttaa Kanta-Hämeen yrityksiä
+kehittämään tietoturvan johtamista käytännönläheisesti ja oikeassa mittakaavassa.
+
 Sivun ensisijainen kysymys ei ole “mitä Ilves Security tekee?” vaan “mitä asiakkaan tilanne muuttuu paremmaksi?”. Jokaisessa osiossa, palvelukortissa ja CTA:ssa pitää näkyä vähintään yksi asiakkaan saama hyöty: parempi päätöksenteko, pienempi epävarmuus, selkeämpi vastuu, priorisoitu tekeminen tai jatkuva tuki.
 
 Palvelukortin rakenne on:

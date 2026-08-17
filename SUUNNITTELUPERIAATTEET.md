@@ -20,6 +20,7 @@ Luontokuvan tulee olla rauhallinen ja dokumentaarinen, ei geneerinen teknologiat
 ## Sivurakenne
 
 - Hero: “Hallittua tietoturvaa.”
+- Visio: “Turvallinen Kanta-Häme.” Mission verkkosivuteksti: auttaa Kanta-Hämeen yrityksiä kehittämään tietoturvan johtamista käytännönläheisesti ja oikeassa mittakaavassa.
 - Palvelut: puutteiden ennakointi, tietoturvan hallinnan rakentaminen ja jatkuva johtamisen tuki.
 - Palveluiden tarkemmat osiot perustuvat asiakkaan ostotilanteisiin: tulevan B2B-kaupan valmistelu, toistuva hallintajärjestelmävaatimus ja tietoturvan johtamisen delegointi.
 - Luottamusta rakentava perusteluosio.
