@@ -12,6 +12,8 @@
   <rect width="1200" height="630" fill="#10181d" opacity="0.22"/>
   <rect width="1200" height="630" fill="url(#shade)"/>
   <rect x="92" y="118" width="8" height="394" fill="#c8102e"/>
+  <!-- The production logo is dark; the light backing keeps it legible on the photo. -->
+  <rect x="128" y="144" width="660" height="190" rx="18" fill="#ffffff" opacity="0.94"/>
   <image href="ilves-security-logo.svg" x="148" y="164" width="610" height="153" preserveAspectRatio="xMinYMid meet"/>
   <text x="148" y="405" fill="#ffffff" font-family="Arial, Helvetica, sans-serif" font-size="54" font-weight="700">Hallittua</text>
   <text x="148" y="466" fill="#ffffff" font-family="Arial, Helvetica, sans-serif" font-size="54" font-weight="700">tietoturvaa.</text>
