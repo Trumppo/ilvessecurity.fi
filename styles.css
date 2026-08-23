@@ -84,6 +84,8 @@ h1 span, h2 em { font-style: normal; color: var(--red); }
 .footer-inner { display: flex; align-items: center; justify-content: space-between; gap: 20px; }
 .footer-inner img { width: 170px; filter: brightness(0) invert(1); }
 .footer-inner p { margin: 0; font-size: 12px; }
+.service-source-note { margin: 28px 0 0; font-size: 13px; opacity: .78; }
+.service-source-note a { color: inherit; text-underline-offset: 3px; }
 section[id], .service-detail[id] { scroll-margin-top: 24px; }
 
 @media (max-width: 900px) {
