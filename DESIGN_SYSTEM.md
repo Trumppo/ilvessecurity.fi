@@ -55,9 +55,9 @@ Palvelukortit toimivat nopeana yleiskuvana. Niiden alle sijoitetaan kolme tarkem
 
 Sisältöjärjestys on:
 
-1. **Puuteanalyysi:** johto ennakoi, että tietoturva voi muodostua uuden B2B-asiakkuuden tai tarjousprosessin esteeksi. Arvo on valmistautuminen ennen kuin vaatimus pysäyttää kaupan.
-2. **Hallintajärjestelmä:** tietoturvan hallintajärjestelmästä tulee tarjouksissa toistuva vaatimus. Arvo on kyky vastata vaatimuksiin johdonmukaisesti oikean kokoisella ja ylläpidettävällä mallilla.
-3. **vCISO:** johdolla ei ole aikaa tai organisaatiossa ei ole omaa tietoturvan johtamisen asiantuntijaa. Arvo on jatkuva omistajuus, tilannekuva ja kehityksen eteneminen.
+1. **Turvan Lähtölaukaus:** johto ennakoi, että tietoturva voi muodostua uuden B2B-asiakkuuden tai tarjousprosessin esteeksi. Arvo on valmistautuminen ennen kuin vaatimus pysäyttää kaupan. Alaotsikko: rajattu tietoturvan puute- ja kehitysanalyysi.
+2. **Turvan Perusta:** tietoturvan hallintajärjestelmästä tulee tarjouksissa toistuva vaatimus. Arvo on kyky vastata vaatimuksiin johdonmukaisesti oikean kokoisella ja ylläpidettävällä mallilla. Alaotsikko: tietoturvan hallintamallin kehitys.
+3. **Turvan Ohjaamo:** johdolla ei ole aikaa tai organisaatiossa ei ole omaa tietoturvan johtamisen asiantuntijaa. Arvo on jatkuva omistajuus, tilannekuva ja kehityksen eteneminen. Alaotsikko: jatkuva tietoturvan johtamisen tuki.
 
 Julkiset käyttötilanteet kirjoitetaan esimerkkeinä, ei toteutuneina asiakascaseina. Toteutuneiksi tuloksiksi voidaan nimetä vain myöhemmin dokumentoidut asiakastapaukset.
 
@@ -67,9 +67,9 @@ Julkiset käyttötilanteet kirjoitetaan esimerkkeinä, ei toteutuneina asiakasca
 
 Palvelukortit noudattavat liiketoimintasuunnitelman etenemispolkua, mutta otsikot on kirjoitettu asiakkaan kokemasta arvosta:
 
-1. **Puutteet näkyviin** – puuteanalyysi tekee nykytilan, keskeiset riskit ja priorisoidun kehityslistan ymmärrettäviksi.
-2. **Tilanne haltuun** – hallintamallin rakentaminen tekee rooleista, vastuista, ohjeista ja seurannasta käytännöllisiä.
-3. **Turva osaksi johtamista** – vCISO-palvelu tuo jatkuvan ulkoistetun tietoturvapäällikkötuen.
+1. **Turvan Lähtölaukaus** – rajattu puute- ja kehitysanalyysi tekee nykytilan, keskeiset riskit ja priorisoidun kehityslistan ymmärrettäviksi.
+2. **Turvan Perusta** – hallintamallin kehitys tekee rooleista, vastuista, ohjeista ja seurannasta käytännöllisiä.
+3. **Turvan Ohjaamo** – jatkuva tietoturvan johtamisen tuki tuo omistajuuden, seurannan ja kehityksen rytmin arkeen.
 4. **Askeleet käytäntöön** – kehittämisprojektit auttavat viemään tärkeät toimet arkeen oman tiimin ja kumppaneiden kanssa.
 
 Korttien järjestys kuvaa mahdollista etenemistä, mutta palvelut voidaan ostaa erikseen. Sivulla ei saa luvata ilman erillistä rajausta sertifiointia, täydellistä auditointia, teknistä penetraatiotestausta tai 24/7-valvontaa. Ilves Securityn painopiste on johtamisessa, hallinnossa ja koordinoinnissa, ei laite- tai lisenssimyynnissä.

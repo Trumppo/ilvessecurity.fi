@@ -57,7 +57,9 @@ h1 span, h2 em { font-style: normal; color: var(--red); }
 .service-card-red .card-number { color: #fff; }
 .service-card h3 { margin: 54px 0 14px; font-size: 27px; line-height: 1.05; }
 .service-card p { margin: 0; color: #647077; }
+.service-card .service-card-subtitle { margin: -6px 0 14px; font-size: 12px; line-height: 1.35; font-weight: 800; letter-spacing: .04em; text-transform: uppercase; color: var(--red); }
 .service-card-dark p, .service-card-red p { color: #e7eaeb; }
+.service-card-dark .service-card-subtitle, .service-card-red .service-card-subtitle { color: #f3c0c6; }
 .service-card a { margin-top: auto; color: var(--red); font-weight: 800; text-decoration: none; }
 .service-card-dark a, .service-card-red a { color: #fff; }
 .statement { background: #fff; }
@@ -138,8 +140,10 @@ section[id], .service-detail[id] { scroll-margin-top: 24px; }
 .service-detail-dark { background: var(--charcoal); color: #fff; border-color: var(--charcoal); }
 .service-detail-red { background: var(--red); color: #fff; border-color: var(--red); }
 .detail-kicker { display: block; margin-bottom: 20px; color: var(--red); font-size: 12px; font-weight: 800; letter-spacing: .14em; text-transform: uppercase; }
+.detail-subtitle { display: block; margin: -10px 0 20px; font-size: 13px; font-weight: 700; color: #647077; }
 .service-detail-dark .detail-kicker { color: #f3c0c6; }
 .service-detail-red .detail-kicker { color: #fff; }
+.service-detail-dark .detail-subtitle, .service-detail-red .detail-subtitle { color: #e7eaeb; }
 .service-detail h3 { margin: 0; max-width: 390px; font-size: clamp(27px, 3vw, 40px); line-height: 1.04; letter-spacing: -.035em; }
 .service-detail-body { max-width: 620px; color: #59656b; font-size: 17px; }
 .service-detail-dark .service-detail-body, .service-detail-red .service-detail-body { color: #e7eaeb; }
