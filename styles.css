@@ -79,6 +79,7 @@ h1 span, h2 em { font-style: normal; color: var(--red); }
 .contact-grid > div:first-child > p:last-child { max-width: 530px; color: #59656b; font-size: 18px; }
 .contact-panel { padding: 24px 28px; background: #fff; border-top: 5px solid var(--red); box-shadow: 0 12px 35px rgba(36,43,49,.08); }
 .contact-person { display: flex; align-items: center; gap: 22px; }
+.contact-grid > *, .contact-person > div { min-width: 0; }
 .contact-portrait { width: 132px; height: 166px; object-fit: contain; object-position: center bottom; flex: 0 0 auto; }
 .panel-label { margin: 0 0 20px; color: #69747a; font-size: 12px; font-weight: 800; letter-spacing: .12em; text-transform: uppercase; }
 .contact-name { margin: 0 0 8px; color: var(--charcoal); font-size: 24px; font-weight: 800; }
